@@ -4,18 +4,26 @@
 [![Minecraft](https://img.shields.io/badge/minecraft-1.18.2--1.20.x-green.svg)](https://www.minecraft.net/)
 [![License](https://img.shields.io/badge/license-Custom-red.svg)](LICENSE)
 
+## 🎥 Prezentacja
+
+[![MCODE-Czeki Prezentacja](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/twojfilm)
+
+<div align="center">
+  <a href="https://youtu.be/twojfilm">
+    <img src="https://img.youtube.com/vi/TWOJ_ID_FILMU/maxresdefault.jpg" alt="MCODE-Czeki Prezentacja" style="width: 80%; max-width: 720px;">
+  </a>
+</div>
+
 ## ✨ Funkcje
 
 ### 🎯 Podstawowe
-- Tworzenie czeków za pomocą `/czek [kwota]`
+- Tworzenie czeków za pomocą komendy `/czek [kwota]`
 - Realizacja poprzez kliknięcie PPM
 - Limity kwot
-- Unikalne kody zabezpieczające przed duplikacją
+- Unikalne generowane kody zabezpieczające przed duplikacją
 
 ### 🛡️ Bezpieczeństwo
 - Zabezpieczenie przed duplikacją
-- Sprawdzanie stanu konta
-- Weryfikacja miejsca w ekwipunku
 - System uprawnień
 
 ### 📱 Interfejs
@@ -27,7 +35,7 @@
 
 1. Pobierz najnowszą wersję z [Releases](../../releases)
 2. Umieść plik `.jar` w folderze `plugins`
-3. Zainstaluj wymagane pluginy
+3. Zainstaluj wymagane zależności
 4. Uruchom/zrestartuj serwer
 5. Gotowe! 🎉
 
@@ -35,10 +43,10 @@
 
 - Serwer: Paper/Spigot 1.18.2 - 1.20.x
 - Java: 17 lub nowsza
-- Pluginy:
-  - [Vault](https://www.spigotmc.org/resources/vault.34315/) (ekonomia)
-  - [NBT-API](https://www.spigotmc.org/resources/nbt-api.7939/)
-  - [Essentials](https://essentialsx.net/downloads.html) - opcjonalny, ale zalecany dla pełnej funkcjonalności
+- Wymagane pluginy:
+  - [Vault](https://www.spigotmc.org/resources/vault.34315/)  (ekonomia) - **Wymagany**
+  - [Essentials](https://essentialsx.net/downloads.html) - *Opcjonalny*
+  - [NBT-API](https://www.spigotmc.org/resources/nbt-api.7939/) - **Wymagany**
 
 ## 🎮 Komendy
 
