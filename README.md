@@ -1,3 +1,5 @@
+# MCODE-Czeki
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/MOLTENEK/MCODE-Czeki-Releases/releases)
 [![Minecraft](https://img.shields.io/badge/minecraft-1.18.2--1.20.x-green.svg)](https://www.minecraft.net/)
 [![License](https://img.shields.io/badge/license-Custom-red.svg)](LICENSE)
@@ -18,6 +20,8 @@
 
 ### 📱 Interfejs
 - Konfigurowalne komunikaty
+- Customowe nazwy i lore czeków
+- Tytuły i wiadomości na chacie
 
 ## 🚀 Instalacja
 
@@ -33,7 +37,7 @@
 - Java: 17 lub nowsza
 - Zależności:
   - Vault (ekonomia)
-  - EssentialsX
+  - NBT-API
 
 ## 🎮 Komendy
 
@@ -63,55 +67,21 @@ check:
     - "&8» &7Unikalny kod: &b{NUMBER}"
     - "&7"
     - "&8» &aKliknij PRAWYM aby wykorzystać."
-
-# Ustawienia wiadomości
-messages:
-  # Wiadomości z tytułem
-  check-cashed:
-    message: "&7Na twoje konto zostało dodane &f${AMOUNT}$&7!"
-    type: "TITLE"
-  inventory-full:
-    message: "&cNie masz miejsca w ekwipunku!"
-    type: "TITLE"
-
-  # Pozostałe wiadomości
-  invalid-amount: "&cNieprawidłowa kwota."
-  amount-must-be-greater-than-zero: "&cKwota musi być większa od zera."
-  not-enough-money: "&cNie masz wystarczająco pieniędzy."
-  check-issued: "&aWystawiono czek na kwotę: &e${AMOUNT}$"
-  invalid-amount-range: "&cKwota musi być między &e${MIN}$ &ca &e${MAX}$&c!"
-  error-creating-check: "&cWystąpił błąd podczas tworzenia czeku!"
-  invalid-check: "&cTo nie jest prawidłowy czek!"
-  check-already-used: "&cTen czek został już wykorzystany!"
-  usage: "&fPoprawne użycie: &9{COMMAND}"
-  admin-usage: "&fPoprawne użycie: &9/mczeki reload"
-  no-permission: "&cNie masz uprawnień do tej komendy!"
-  config-reloaded: "&aPrzeładowano &2konfigurację!"
-
-  # Domyślny typ wiadomości dla pozostałych komunikatów
-  default-message-type: "CHAT"
-
-# Ustawienia historii transakcji
-history:
-  enabled: true
-  limit: 1000  # Maksymalna liczba wpisów w historii
-
-# Ustawienia debugowania
-debug:
-  enabled: false  # Włącz/wyłącz dodatkowe logi
-  save-errors: true  # Zapisuj błędy do pliku
 ```
 
-## 📊 Statystyki
+## 📊 Statystyki i Monitoring
 
 - Historia transakcji
 - Śledzenie tworzonych czeków
 - Monitoring realizacji
+- System debugowania
 
-## 🤝 Wsparcie
+## 🤝 Wsparcie i Kontakt
 
-Potrzebujesz pomocy? Masz propozycje? Jakieś błędy?
-- 📧 Kontakt: [Discord](https://discord.gg/twojserwer)
+Potrzebujesz pomocy? Masz propozycje? Znalazłeś błąd?
+- 💬 Discord: molt3n_
+- 📧 Email: soon
+- 🌐 Website: soon
 - 🐛 Zgłoś błąd: [GitHub Issues](../../issues)
 
 ## 📜 Licencja
