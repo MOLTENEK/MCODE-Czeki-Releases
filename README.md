@@ -20,14 +20,14 @@
 
 ### 📱 Interfejs
 - Konfigurowalne komunikaty
-- Customowe nazwy i lore czeków
+- Możliwość edytowania nazwy/lore czeku
 - Tytuły i wiadomości na chacie
 
 ## 🚀 Instalacja
 
 1. Pobierz najnowszą wersję z [Releases](../../releases)
 2. Umieść plik `.jar` w folderze `plugins`
-3. Zainstaluj wymagane zależności
+3. Zainstaluj wymagane pluginy
 4. Uruchom/zrestartuj serwer
 5. Gotowe! 🎉
 
@@ -35,9 +35,10 @@
 
 - Serwer: Paper/Spigot 1.18.2 - 1.20.x
 - Java: 17 lub nowsza
-- Zależności:
-  - Vault (ekonomia)
-  - NBT-API
+- Pluginy:
+  - [Vault](https://www.spigotmc.org/resources/vault.34315/) (ekonomia)
+  - [NBT-API](https://www.spigotmc.org/resources/nbt-api.7939/)
+  - [Essentials](https://essentialsx.net/downloads.html) - opcjonalny, ale zalecany dla pełnej funkcjonalności
 
 ## 🎮 Komendy
 
