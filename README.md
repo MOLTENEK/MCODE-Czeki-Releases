@@ -105,4 +105,4 @@ Ten plugin jest objęty [niestandardową licencją](LICENSE).
 - ❌ Nie możesz sprzedawać pluginu
 
 ---
-*Stworzone z ❤️ przez MOLTENEK*
+*Stworzone z ❤️ przez MCODE (molt3n_)*
