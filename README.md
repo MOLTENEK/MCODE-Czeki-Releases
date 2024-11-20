@@ -1,6 +1,6 @@
 # 💰 MCODE-Czeki
 
-> Zaawansowany system czeków dla serwerów Minecraft
+> Plugin na czeki
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/MOLTENEK/MCODE-Czeki-Releases/releases)
 [![Minecraft](https://img.shields.io/badge/minecraft-1.18.2--1.20.x-green.svg)](https://www.minecraft.net/)
@@ -11,8 +11,8 @@
 ### 🎯 Podstawowe
 - Tworzenie czeków za pomocą `/czek [kwota]`
 - Realizacja poprzez kliknięcie PPM
-- Limity kwot (1000$ - 100000$)
-- Unikalne kody zabezpieczające
+- Limity kwot
+- Unikalne kody zabezpieczające przed duplikacją
 
 ### 🛡️ Bezpieczeństwo
 - Zabezpieczenie przed duplikacją
@@ -21,10 +21,6 @@
 - System uprawnień
 
 ### 📱 Interfejs
-- Nowoczesny system powiadomień
-  - Tytuły na ekranie (domyślne)
-  - BossBar z auto-ukrywaniem
-  - Wiadomości na czacie
 - Konfigurowalne komunikaty
 
 ## 🚀 Instalacja
@@ -53,22 +49,39 @@
 ## ⚙️ Konfiguracja
 
 ```yaml
-# Limity kwot
+# Konfiguracja pluginu MCODE-Czeki
+
+# Ustawienia limitów
 limits:
-  min-amount: 1000.0
-  max-amount: 100000.0
+  min-amount: 1000
+  max-amount: 100000
 
-# Wygląd czeku
+# Ustawienia czeku
 check:
-  name: "&a&lCzek pieniężny - &e{AMOUNT}$"
+  name: "&a&lCzek pieniężny - ${AMOUNT}"
   lore:
-    - "&7Kliknij PPM aby zrealizować"
-    - "&7Kwota: &f{AMOUNT}$"
-    - "&7Wystawca: &f{PLAYER}"
+    - "&8» &7Używając czeku otrzymasz na swoje"
+    - "&8» &7konto &a+{AMOUNT}$&7!"
+    - "&7"
+    - "&8» &7Wytworzył: &f{PLAYER} {DATE}"
+    - "&8» &7Unikalny kod: &b{NUMBER}"
+    - "&7"
+    - "&8» &aKliknij PRAWYM aby wykorzystać."
 
-# System wiadomości
+# Ustawienia wiadomości
 messages:
-  location: "TITLE"  # TITLE/BOSSBAR/CHAT
+  invalid-amount: "&cNieprawidłowa kwota."
+  amount-must-be-greater-than-zero: "&cKwota musi być większa od zera."
+  not-enough-money: "&cNie masz wystarczająco pieniędzy."
+  check-issued: "&aWystawiono czek na kwotę: &e{AMOUNT} $"
+  check-cashed: "&7Na twoje konto zostało dodane &f${AMOUNT}&7!"
+  inventory-full: "&cNie masz miejsca w ekwipunku!"
+  message-location: "TITLE" # CHAT/BOSSBAR/TITLE
+
+# Ustawienia historii transakcji
+history:
+  enabled: true
+
 ```
 
 ## 📊 Statystyki
