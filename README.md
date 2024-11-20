@@ -126,7 +126,7 @@ debug:
 ## 🤝 Wsparcie i Kontakt
 
 Potrzebujesz pomocy? Masz propozycje? Znalazłeś błąd?
-- 💬 Discord: molt3n_
+- [![Discord](https://img.shields.io/badge/Discord-molt3n__-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/molt3n_)
 - 📧 Email: soon
 - 🌐 Website: soon
 - 🐛 Zgłoś błąd: [GitHub Issues](../../issues)
