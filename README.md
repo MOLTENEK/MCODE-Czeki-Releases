@@ -126,10 +126,10 @@ debug:
 ## 🤝 Wsparcie i Kontakt
 
 Potrzebujesz pomocy? Masz propozycje? Znalazłeś błąd?
-- [![Discord](https://img.shields.io/badge/Discord-molt3n__-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/molt3n_)
-- 📧 Email: soon
-- 🌐 Website: soon
-- 🐛 Zgłoś błąd: [GitHub Issues](../../issues)
+[![Discord](https://img.shields.io/badge/Discord-molt3n__-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.id/1243973415908540592)
+[![Email](https://img.shields.io/badge/Email-soon-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:soon)
+[![Website](https://img.shields.io/badge/Website-soon-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://soon)
+[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-Zgłoś_błąd-181717?style=for-the-badge&logo=github&logoColor=white)](../../issues)
 
 ## 📜 Licencja
 
